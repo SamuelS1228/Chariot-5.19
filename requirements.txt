@@ -1,7 +1,0 @@
-streamlit==1.34.0        # latest with Python-3.10 wheels
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.4.2
-pydeck==0.8.1
-openrouteservice==2.3.0
-shapely==2.0.3           # wheel exists for cp310, avoids compile
