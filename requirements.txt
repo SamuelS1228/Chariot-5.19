@@ -1,7 +1,6 @@
-
-streamlit>=1.32
-pandas>=1.5,<2.2
-numpy>=1.24,<1.27
-scikit-learn>=1.4
+# requirements.txt
+streamlit>=1.45          # current Streamlit Cloud default
+numpy>=2.0               # wheels for cp313
+pandas>=2.2.3            # first pandas that ships cp313 wheels
+scikit-learn>=1.6        # first sklearn that ships cp313 wheels
 pydeck>=0.8
-openrouteservice>=2.3.0
